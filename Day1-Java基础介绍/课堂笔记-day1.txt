@@ -1,0 +1,137 @@
+目标：
+	了解Java 语言 
+	了解Java 程序的类型 
+	掌握Java 程序运行环境的配置 
+	理解Java 虚拟机 (JVM)
+	了解Java的特点
+	
+1、了解Java 语言 
+   Sun Microsystems 于1995年推出
+   Sun公司的James Gosling (Java 语言之父)主持开发
+   Java 既安全、可移植，又可跨平台，而且人们发现它能够解决Internet 上的大型应用问题
+	
+   Java 是一种平台无关的语言。
+   平台：这里指软件平台，一整套能够解决问题的软件的集合(操作系统)。
+   
+   Java源代码--(编译)-->Java字节码--(运行)-->JVM(Java虚拟机)---->多个操作系统平台
+   
+   
+2、Java程序的类型
+   Applet：用Java编写，在 Internate 上面运行的程序
+   应用程序：用 Java 编写，有图形用户界面(GUI)或者命令行显示的程序。
+
+   我们主要编写 命令行程序。
+
+   
+3、Java 开发工具的安装
+   JDK :Java Developer Kit(Java 开发工具集)
+   Java 安装路径：C:\Program Files\Java
+   jdk1.6.0_11: Java 开发工具
+      bin:保存很多 Java 开发工具，都是一些可以在 window 系统中执行的文件
+	      java.exe      编译 Java 源代码为字节码
+		  javac.exe     运行 Java 字节码为硬件可以执行的机器码
+		  javadoc.exe   把 Java 源代码中的注释抽取成文档
+		  
+	  lib:保存 Java 程序运行需要的库文件
+	      tools.jar      *.jar 文件是一种压缩文件，可以用 WinRar 软件打开，在这里
+		                 专门用于压缩 Java 字节码，把多个字节码文件打包压缩，供
+						 Java 程序在运行时调用。
+						 
+	  
+	  demo:JDK 自带的示例
+	  
+	  
+	  src.zip:  JDK 部分源代码。
+	  
+   
+   jre6 : Java 运行环境
+
+4、掌握Java 程序运行环境的配置
+
+   环境变量的配置：
+   为什么要配置？
+      JDK 安装好以后，没有可以让用户点击的桌面图标供用户启动。一般是党运行 Java 
+   程序的时候自动由 操作系统去调用的。需要告知操作系统， JDK 安装路径以及工具和
+   jar 文件所在的路径。所以要配置环境变量。
+   
+   
+   如何配置？
+      我的电脑--(右键)-->属性---->高级---->环境变量---->系统变量
+	  --<新建>-->JAVA_HOME=C:\Program Files\Java\jdk1.6.0_11
+	  --<新建>-->classpath=.;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar;
+	  ---->Path=前面的不变;%JAVA_HOME%\bin;----><确定>---->生效
+   
+   如何测试配置是否成功？
+      打开”命令提示符“，分别输入 java   javac  命令，如果有内容出现说明配置成功。
+	  
+5、开发第一个 Java 程序
+   (1)新建 java 工程
+   (2)新建 包 和 类
+   (3)编写 main() 方法中的内容
+   (4)保存、运行程序
+	  
+
+6、理解Java 虚拟机 (JVM)
+   编译时：把源代码转换为字节码
+   运行时：类加载器-->字节码校验-->解释器、JIT-->硬件执行
+	
+7、Java的特点	  
+   (1)平台无关
+   (2)与 Internet 结合紧密
+   (3)安全、可移植、健壮
+   
+   JavaSE ---> Java EE  --->  Java ME
+   
+   
+   
+   
+   
+   	  
+	  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
