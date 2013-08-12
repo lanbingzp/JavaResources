@@ -6,31 +6,44 @@
 	ÁË½âJavaµÄÌØµã
 	
 1¡¢ÁË½âJava ÓïÑÔ 
+   1990 Äê Sun ¼Æ»®¿ª·¢¡°ÂÌÉ«¼Æ»®¡±µÄÏîÄ¿£»
    Sun Microsystems ÓÚ1995ÄêÍÆ³ö
+   ÓïÑÔÒªÇó£ºÄÜ¹»´´½¨ÓÃ»§½çÃæ¡¢ÄÜ¹»¿ØÖÆÍøÂçÇëÇó¡£
+
    Sun¹«Ë¾µÄJames Gosling (Java ÓïÑÔÖ®¸¸)Ö÷³Ö¿ª·¢
-   Java ¼È°²È«¡¢¿ÉÒÆÖ²£¬ÓÖ¿É¿çÆ½Ì¨£¬¶øÇÒÈËÃÇ·¢ÏÖËüÄÜ¹»½â¾öInternet ÉÏµÄ´óÐÍÓ¦ÓÃÎÊÌâ
+   James Gosling ÓÃ C ±àÐ´ÁË Java ±àÒëÆ÷¡¢Java ÔËÐÐÐéÄâ»ú(JVM)   
+ 
+   Java ¼È°²È«¡¢¿ÉÒÆÖ²£¬ÓÖ¿É¿çÆ½Ì¨£¬¶øÇÒÈËÃÇ·¢ÏÖËüÄÜ¹»½â¾ö Internet ÉÏµÄ´óÐÍÓ¦ÓÃÎÊÌâ
+   Java ÓïÑÔµÄ·¢Õ¹·½Ïò£º
+   Java SE (»ù´¡Óï·¨¡¢GUI ½çÃæ¿ª·¢)
+   Java EE (»ùÓÚÍøÂçÐ­Òé¡¢Servlet¡¢JSP)
+   Java ME (»ùÓÚÒÆ¶¯Éè±¸¡¢·ÇÖÇÄÜÊÖ»ú¡¢ÕÆÉÏµçÄÔ) 
 	
+ 
    Java ÊÇÒ»ÖÖÆ½Ì¨ÎÞ¹ØµÄÓïÑÔ¡£
    Æ½Ì¨£ºÕâÀïÖ¸Èí¼þÆ½Ì¨£¬Ò»ÕûÌ×ÄÜ¹»½â¾öÎÊÌâµÄÈí¼þµÄ¼¯ºÏ(²Ù×÷ÏµÍ³)¡£
    
-   JavaÔ´´úÂë--(±àÒë)-->Java×Ö½ÚÂë--(ÔËÐÐ)-->JVM(JavaÐéÄâ»ú)---->¶à¸ö²Ù×÷ÏµÍ³Æ½Ì¨
+   JavaÔ´´úÂë.java--(±àÒëjavac)-->Java×Ö½ÚÂë.class--(ÔËÐÐjava)-->JVM(JavaÐéÄâ»ú)---->¶à¸ö²Ù×÷ÏµÍ³Æ½Ì¨
    
-   
+   Cocos2D-x   
+
+https://github.com/CruiseLiugit/JavaResources
+
 2¡¢Java³ÌÐòµÄÀàÐÍ
    Applet£ºÓÃJava±àÐ´£¬ÔÚ Internate ÉÏÃæÔËÐÐµÄ³ÌÐò
    Ó¦ÓÃ³ÌÐò£ºÓÃ Java ±àÐ´£¬ÓÐÍ¼ÐÎÓÃ»§½çÃæ(GUI)»òÕßÃüÁîÐÐÏÔÊ¾µÄ³ÌÐò¡£
 
    ÎÒÃÇÖ÷Òª±àÐ´ ÃüÁîÐÐ³ÌÐò¡£
 
-   
+ 
 3¡¢Java ¿ª·¢¹¤¾ßµÄ°²×°
    JDK :Java Developer Kit(Java ¿ª·¢¹¤¾ß¼¯)
-   Java °²×°Â·¾¶£ºC:\Program Files\Java
+   Java °²×°Â·¾¶£ºC:\Program Files\Java\JDK
    jdk1.6.0_11: Java ¿ª·¢¹¤¾ß
       bin:±£´æºÜ¶à Java ¿ª·¢¹¤¾ß£¬¶¼ÊÇÒ»Ð©¿ÉÒÔÔÚ window ÏµÍ³ÖÐÖ´ÐÐµÄÎÄ¼þ
-	      java.exe      ±àÒë Java Ô´´úÂëÎª×Ö½ÚÂë
-		  javac.exe     ÔËÐÐ Java ×Ö½ÚÂëÎªÓ²¼þ¿ÉÒÔÖ´ÐÐµÄ»úÆ÷Âë
-		  javadoc.exe   °Ñ Java Ô´´úÂëÖÐµÄ×¢ÊÍ³éÈ¡³ÉÎÄµµ
+	      javac.exe    ±àÒë Java Ô´´úÂëÎª×Ö½ÚÂë
+	      java.exe     ÔËÐÐ Java ×Ö½ÚÂëÎªÓ²¼þ¿ÉÒÔÖ´ÐÐµÄ»úÆ÷Âë
+	      javadoc.exe   °Ñ Java Ô´´úÂëÖÐµÄ×¢ÊÍ³éÈ¡³ÉÎÄµµ
 		  
 	  lib:±£´æ Java ³ÌÐòÔËÐÐÐèÒªµÄ¿âÎÄ¼þ
 	      tools.jar      *.jar ÎÄ¼þÊÇÒ»ÖÖÑ¹ËõÎÄ¼þ£¬¿ÉÒÔÓÃ WinRar Èí¼þ´ò¿ª£¬ÔÚÕâÀï
@@ -70,6 +83,9 @@
    (3)±àÐ´ main() ·½·¨ÖÐµÄÄÚÈÝ
    (4)±£´æ¡¢ÔËÐÐ³ÌÐò
 	  
+IDE: ¼¯³É¿ª·¢»·¾³£¬°²×°ËùÓÐ¹¤¾ß
+Workspace : ¹¤×÷¿Õ¼ä£¬±£´æËùÓÐ´úÂëµÄÄ¿Â¼
+
 
 6¡¢Àí½âJava ÐéÄâ»ú (JVM)
    ±àÒëÊ±£º°ÑÔ´´úÂë×ª»»Îª×Ö½ÚÂë
@@ -83,6 +99,45 @@
    JavaSE ---> Java EE  --->  Java ME
    
    
+×¢ÒâÊÂÏî£º
+1¡¢Java ±ØÐëÐÂ½¨Ò»¸ö¹¤³Ì£¬±£´æËùÓÐµÄ´úÂë»òÎÄ¼þ
+2¡¢Java ÀàÃû±ØÐëÒÔ ´óÐ´×ÖÄ¸¡¢_¡¢$ ·ûºÅ¿ªÍ·¡£
+3¡¢Ò»¸öÀàÎÄ¼þÖÐ£¬Ö»ÄÜÓÐÒ»¸öÖ÷Àà(public class)£¬ÇÒÖ÷ÀàÃûÓëÎÄ¼þÍ¬Ãû
+4¡¢Java ÀàÐèÒªÔËÐÐ£¬±ØÐëÐÂ½¨ main() º¯Êý£¬×÷Îª³ÌÐòÈë¿Ú
+5¡¢Java ÀàÖÐ main() º¯ÊýÈç¹ûÐèÒªÊäÈë²ÎÊý£¬±ØÐëÔÚÔËÐÐÇ°½øÐÐÅäÖÃ
+   ÊäÈë²ÎÊýºó£¬ÔÙÔËÐÐ
+6¡¢Java ³ÌÐòµÄ»ù±¾×é³É£º±äÁ¿¡¢Êý¾ÝÀàÐÍ¡¢ÔËËã·û¡¢Á÷³Ì¿ØÖÆ
+
+   ±äÁ¿£ºÈËÎª¶¨ÒåµÄÒ»¸öµ¥´Ê£¬ÓÃÀ´´ú±íÒ»¸ö²»È·¶¨µÄÖµ£»
+   Êý¾ÝÀàÐÍ£ºJava ÓïÑÔ¶¨ÒåºÃµÄ£¬ÓÃÀ´ÔÚÄÚ´æÖÐ´æ·Å²»Í¬ÖµµÄ¿Õ¼ä´óÐ¡£¬³ÌÐòÖÐÓÃ¹Ø¼ü×Ö´ú±íÕâÐ©¿Õ¼ä£»
+    Java Êý¾ÝÀàÐÍ·ÖÎªÁ½ÖÖ£º»ù±¾Êý¾ÝÀàÐÍ¡¢ÒýÓÃÊý¾ÝÀàÐÍ
+     »ù±¾Êý¾ÝÀàÐÍ:ÑØÓÃ C ÖÐµÄÀàÐÍ£¬ÓÐ 8 ÖÖ
+      Êý×Ö£ºÕûÊý¡¢Ð¡Êý
+          ÕûÊý£ºbyte   short  int  long
+          Ð¡Êý: float  double
+      ×ÖÄ¸£º'0'-'9'  'a'-'z' 'A'-'Z' '!'ÿ
+           char
+      Âß¼­£ºtrue  false     
+           boolean
+
+   ÔËËã·û£ºÓÃÀ´±íÊ¾ ¶à¸öÖµÖ®¼äµÄ ÈçºÎ½øÐÐ¼ÆËãµÄ·ûºÅ£»
+     ËãÊõÔËËã·û:+  -  *  /  %
+
+
+Ô¤Ï°£º
+1¡¢Ô¤Ï°Á÷³Ì¿ØÖÆÓï¾ä
+   if  else  for  while switch-case
+2¡¢Ô¤Ï° Êý¾ÝÀàÐÍµÄ³¤¶È
+
+
+
+
+ÅÐ¶ÏÒ»¸öÃüÁîÐÐÊäÈëµÄÊý×Ö£¬ÊÇ·ñÊÇÆæÊý.
+5%2=1
+
+
+
+
    
    
    
