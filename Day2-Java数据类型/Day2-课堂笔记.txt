@@ -1,33 +1,54 @@
 Ä¿±ê£º
    Êý¾ÝÀàÐÍ
    ±äÁ¿
-   ÔËËã·û
+   ÔËËã·ûÓë±í´ïÊ½
    Âß¼­¿ØÖÆÓï¾ä
    
 1¡¢»ù±¾¸ÅÄî
-   Êý¾ÝÀàÐÍÈ·¶¨Òª´æ´¢ÔÚÄÚ´æÖÐµÄÊý¾ÝµÄÀàÐÍ
+   Êý¾ÝÀàÐÍÈ·¶¨Òª´æ´¢ÔÚÄÚ´æÖÐµÄÊý¾ÝµÄ³¤¶È£»
    ±äÁ¿ÊÇ´æ´¢Êý¾ÝµÄ»ù±¾µ¥Ôª ¡£
    ÔËËã·ûÊÇÒ»¸ö·ûºÅ£¬ÓÃÓÚ²Ù×÷Ò»¸ö»ò¶à¸ö²ÎÊýÒÔµÃ³ö½á¹û
    ³ÌÐòÊÇ°´Ë³ÐòÖ´ÐÐµÄ¡£¿ØÖÆÁ÷Óï¾äÔÊÐí¸Ä±ä´ËË³Ðò¡£   
-   
+
+   Ê²Ã´ÊÇ³ÌÐò£¿
+     ÎªÁËÊµÏÖÌØ¶¨¹¦ÄÜ£¬±àÐ´µÄÒ»¶Î´úÂë£»
+     ³ÌÐò°üº¬´úÂë¡¢Ëã·¨¡¢Êý¾Ý
+     ÎªÁË´ïµ½Ä³¸öÄ¿µÄ£¬½â¾öÄ³¸öÎÊÌâ¡£Ê¹ÓÃÌØ¶¨¹¤¾ß¡¢²ÄÁÏ£¬
+°´ÕÕ¹Ì¶¨Á÷³Ì£¬°ÑÊý¾Ý¡¢Í¼Æ¬µÈ°´ÕÕËã·¨£¬ÓÃ´úÂëÃèÊö³öÀ´µÄ²úÆ·¡£ 
+
+   String name="Ð¡Ã÷";   
+   int a = 18888888888888888;  
+   a++;
+   a+b
+   a>b?100:200;
+   >>>  
+
+
 2¡¢Êý¾ÝÀàÐÍ
    Java ÊÇÒ»ÖÖÇ¿ÀàÐÍµÄÓïÑÔ¡£ÔÚ Java ³ÌÐòÖÐ£¬µ± JVM ±àÒëÒ»¸öÊý¾ÝµÄÊ±ºò£¬±ØÐëÖªµÀ
    Õâ¸öÊý¾Ý³¤¶È¡£È»ºó²ÅÄÜÔÚÄÚ´æÖÐÕýÈ·µÄ¸ø¸ÃÊý¾Ý·ÖÅäÄÚ´æ¡£
-   
-   Java ÓÐÁ½´óÊý¾ÝÀàÐÍ£¬·Ö±ðÊÇ£ºÔ­Ê¼Êý¾ÝÀàÐÍ¡¢ÒýÓÃÊý¾ÝÀàÐÍ¡£
-   Ô­Ê¼Êý¾ÝÀàÐÍ                ÒýÓÃÊý¾ÝÀàÐÍ
-   byte  8Î»                   Êý×é
-   char  32                    Àà
-   short 16                    ½Ó¿Ú
+
+   javaScript ÓïÑÔÊÇÈõÀàÐÍÓïÑÔ¡£
+    var a =10;
+    ÿ.
+    a = true;    
+
+   Java ÓÐÁ½´óÊý¾ÝÀàÐÍ£¬·Ö±ðÊÇ£ºÔ­Ê¼(»ù´¡)Êý¾ÝÀàÐÍ¡¢ÒýÓÃÊý¾ÝÀàÐÍ¡£
+   Ô­Ê¼Êý¾ÝÀàÐÍ(¼Ì³ÐÁËCÓïÑÔÖÐµÄÀàÐÍ)[´æÔÚÕ»Çø] ÒýÓÃÊý¾ÝÀàÐÍ[´æÔÚ¶ÑÇø»ò³£Á¿Çø]
+   byte  8Î»                            Êý×é
+   char  32                             Àà
+   short 16                             ½Ó¿Ú
    int   32
    long  64
    float 32 
    double 64
    boolean
    
-   int a 
-   int b 
-   a + b =c;
+Êý¾ÝÀàÐÍ		ËùÕ¼Î»Êý		ÊýµÄ·¶Î§	boolean		   1           true/falsechar		   16	       0 ¡«65535byte		   8	       -2(7)¡«2(7)-1short		   16	       -2(15)¡«2(15)-1	int	           32	       -2(31)¡«2(31)-1	long		   64	       -2(63)¡«2(63)-1	float		   32	       3.4e£­38 ¡«3.4e£«38double		   64	       1.7e£­308 ¡«1.7e£«308
+
+
+   Java    
+
    Java ÔÚÉè¼ÆµÄÊ±ºò£¬²ÉÓÃÈ«ÐÂµÄÉè¼ÆË¼Ïë--ÃæÏò¶ÔÏóµÄÉè¼ÆË¼Ïë£¬Java ÖÐ
 Ò»ÇÐ¶¼ÊÇ¶ÔÏó¡£(ÀýÍâ:8ÖÖÔ­Ê¼Êý¾ÝÀàÐÍ²»ÊÇ¶ÔÏó£¬ÒòÎªÔÚ Java Ö®Ç°ÈËÃÇÊ¹ÓÃ
 Ô­Ê¼Êý¾ÝÀàÐÍ½øÐÐÊýÑ§ÔËËã·Ç³£·½±ã¡£ÔÚ Java ÖÐÑØÓÃÁËÖ®Ç°µÄÊý¾ÝÀàÐÍ¡£)
@@ -58,9 +79,14 @@
 		  int num = 20;
 		  
 	   }
+
+   Java ÓïÑÔÃüÃû¹æ·¶:
+   (1)JavaÓïÑÔÖÐ£¬±êÊ¶·ûÊÇÒÔ×ÖÄ¸£¬ÏÂ»®Ïß£¨_£©£¬»õ±Ò·û£¨$ ¡ê£©¿ªÊ¼µÄÒ»¸ö×Ö·ûÐòÁÐ£¬ºóÃæ¿ÉÒÔ¸ú×ÖÄ¸£¬ÏÂ»®Ïß£¬»õ±Ò·û£¬Êý×Ö¡£
+   (2)Java±êÊ¶·ûÇø·Ö´óÐ¡Ð´×ÖÄ¸¡£   (3)±êÊ¶·ûÖÐ×îºÃ²»Ê¹ÓÃ»õ±Ò·û£¨$ ¡ê£©£¬ÒòÎªÕâÐ©·ûºÅ³£±»ÓÃÓÚÄÚ²¿´¦Àí¡£   ºÏ·¨µÄ±êÊ¶·û£ºIdentifier  userName  User_Name  _sys_value  $change  my$Change   ·Ç·¨µÄ±êÊ¶·û£º2mail  room#  class
+
 	   
-4¡¢ÔËËã·û
-   ¼û´úÂë
+4¡¢ÔËËã·ûÓë±í´ïÊ½
+  ËãÊõÔËËã·û£º +£¬¡ª£¬*£¬/£¬%£¬++£¬--  ¹ØÏµÔËËã·û£º >£¬<£¬>=£¬<=£¬==£¬!=  ²¼¶ûÂß¼­ÔËËã·û£º !£¬&&£¬||  Î»ÔËËã·û£º >>£¬<<£¬>>>£¬&£¬|£¬^£¬~  ¸³ÖµÔËËã·û£º =£¬+=£¬-=£¬*=£¬/=  ÈýÔªÌõ¼þÔËËã·û£º ? :  ÆäËüÌØÊâµÄÔËËã·û    °üÀ¨·ÖÁ¿ÔËËã·û£º.    ÏÂ±êÔËËã·û£º []     ÊµÀýÀàÐÍÅÐ¶ÏÔËËã·û£º instanceof    ¶ÔÏóÊ¾Àý´´½¨ÔËËã·û£ºnew£¬    Ç¿ÖÆÀàÐÍ×ª»»ÔËËã·û £º(ÀàÐÍ)    ·½·¨µ÷ÓÃÔËËã·û £º()
    
 5¡¢Á÷³Ì¿ØÖÆÓï¾ä
    ÅÐ¶ÏÓï¾ä
