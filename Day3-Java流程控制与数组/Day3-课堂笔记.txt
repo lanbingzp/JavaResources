@@ -6,22 +6,26 @@
    Êı×é¹¤¾ßÀà java.util.Arrays
 
 1¡¢Java ÓïÑÔ³£ÓÃ»ò±¸ÓÃ¹Ø¼ü×Ö
-abstract 	do 	      implements 	private 		throw boolean 	double 	      import 		protected 	throws break 	        else 	      instanceof 	public 		transient byte 		extends       int 		return 		true case 	        false 	      interface 	short 		try catch 	        final 	      long 		static 		void char 		finally       native 		super 		volatile class 	        float 	      new 		switch 		while continue 	for 	      null 		synchronized 	 default 	if 	      package 	        this 
+abstract 	do 	      implements 	private 	throw boolean 	double 	      import 		protected 	throws break 	        else 	      instanceof 	public 		transient byte 		extends       int 		return 		true case 	        false 	      interface 	short 		try catch 	        final 	      long 		static 		void char 		finally       native 		super 		volatile class 	        float 	      new 		switch 		while continue 	for 	      null 		synchronized 	 default 	if 	      package 	        this 
 
 
 
 ·ÖÀà¼ÇÒä£º
-Êı¾İºÍ·µ»ØÖµÀàĞÍ£ºint, void, returnÿÿ°ü/Àà/³ÉÔ±/½Ó¿Ú£ºpackage, class, interface·ÃÎÊ¿ØÖÆ£ºpublic, private, protectedÑ­»·¼°Ñ­»·¿ØÖÆ£ºif, switch, breakÀıÍâ´¦Àí£ºthrow, try, finally±£Áô´Ê£¨ÎŞº¬Òåµ«²»ÄÜÊ¹ÓÃ£©£ºgoto, const
+Óë·½·¨ÓĞ¹Ø£ºÊı¾İºÍ·µ»ØÖµÀàĞÍ£ºint, void, returnÿÿÓëÀàÓĞ¹Ø£º  °ü/Àà/³ÉÔ±/½Ó¿Ú£ºpackage, class, interfaceÓë·½·¨¡¢Àà¶¼ÓĞ¹Ø£º·ÃÎÊ¿ØÖÆ£ºpublic, private, protectedÑ­»·¼°Ñ­»·¿ØÖÆ£ºif, switch, breakÀıÍâ´¦Àí£ºthrow, try,,catch, finally±£Áô´Ê£¨ÎŞº¬Òåµ«²»ÄÜÊ¹ÓÃ£©£ºgoto, const
 
 
 2¡¢Êı×éµÄ¶¨Òå
 
-Êı×éÊÇÒ»ÖÖÌØÊâµÄ--¶ÔÏóÊı×éÓÃÀ´×éÖ¯Ò»×éÀàĞÍÏàÍ¬µÄ¶ÔÏó--³¤¶È¹Ì¶¨¡¢ÀàĞÍ¹Ì¶¨Êı×éÖĞµÄ³ÉÔ±Í¨¹ıÏÂ±êÀ´·ÃÎÊÊı×éµÄ´óĞ¡ÔÚ´´½¨Êı×éÊµÀıÊ±È·¶¨£¬¶ø²»ÊÇ¶¨ÒåÊı×é±äÁ¿Ê±Êı×éµÄ´óĞ¡Ò»¾­È·¶¨½«²»ÔÚ¸Ä±ä¡£ÔÚ´´½¨Êı×éÊ±£¬Êı×é³ÉÔ±¶¼±»¸³Óè³õÖµ¡£Ê¾Àı£ºint intArray[];	\\ ¶¨Òå±äÁ¿Ê±²»Ö¸¶¨´óĞ¡int[] intArray;	\\ Á½ÖÖ¶¨Òå·½·¨¶¼¿ÉÒÔintArray = new int[3];  \\´´½¨Êı×éÊµÀıÊ±È·¶¨´óĞ¡intArray[0] = 3;	\\ Êı×éÏÂ±ê´Ó0¿ªÊ¼
+Êı×éÊÇÒ»ÖÖÌØÊâµÄ--¶ÔÏó£¬ÔÚÄÚ´æÖĞ±£´æÔÚ¡°¶ÑÇø¡±Êı×éÓÃÀ´×éÖ¯Ò»×éÀàĞÍÏàÍ¬µÄ¶ÔÏó--³¤¶È¹Ì¶¨¡¢ÀàĞÍ¹Ì¶¨Êı×éÖĞµÄ³ÉÔ±Í¨¹ıÏÂ±êÀ´·ÃÎÊÊı×éµÄ´óĞ¡ÔÚ  ´´½¨Êı×é"ÊµÀı(instance)" Ê±È·¶¨£¬¶ø²»ÊÇ¶¨ÒåÊı×é"±äÁ¿"Ê±Êı×éµÄ´óĞ¡Ò»¾­È·¶¨½«²»ÔÚ¸Ä±ä¡£ÔÚ´´½¨Êı×éÊ±£¬Êı×é³ÉÔ±¶¼±»¸³Óè³õÖµ¡£ÊµÀı£ºÔÚ¶ÑÄÚ´æÖĞ£¬ÓÉ JVM ·ÖÅäÁË¿Õ¼äµÄÒ»¶Î´úÂë£¬Ò»°ãÖ¸ Öµ¡£
+ {100,20}
+ new People();
+ new Student();
+Ê¾Àı£ºint intArray[];	\\ ¶¨Òå±äÁ¿Ê±²»Ö¸¶¨´óĞ¡int[] intArray;	\\ Á½ÖÖ¶¨Òå·½·¨¶¼¿ÉÒÔintArray = new int[3];  \\´´½¨Êı×éÊµÀıÊ±È·¶¨´óĞ¡intArray[0] = 3;	\\ Êı×éÏÂ±ê´Ó0¿ªÊ¼
 
 
 3¡¢Êı×éµÄÊ¹ÓÃ
 
-Ê¹ÓÃ¡°[]¡±À´ÉùÃ÷Êı×éÒıÓÃ±äÁ¿£¬ĞÎÊ½ÈçÏÂ£º     Type arrayName[];Type¿ÉÒÔÊÇÈÎºÎÀàĞÍ     »ù±¾ÀàĞÍ£¬ÒıÓÃÀàĞÍÉùÃ÷Ê±²»ÄÜÖ¸¶¨Êı×éµÄ´óĞ¡Êı×éµÄ´óĞ¡ÊÇÔÚ¶¯Ì¬·ÖÅäÊı×é¶ÔÏóÊ±Ö¸¶¨µÄÊı×é¶ÔÏóµÄ·ÃÎÊÍ¨¹ı¡°[]¡±²Ù×÷·û£º     arrayName[0]ÊÇµÚÒ»¸öÔªËØ
+Ê¹ÓÃ¡°[]¡±À´ÉùÃ÷Êı×éÒıÓÃ±äÁ¿£¬ĞÎÊ½ÈçÏÂ£º     Type arrayName[];   int arr[];Type¿ÉÒÔÊÇÈÎºÎÀàĞÍ     »ù±¾ÀàĞÍ£¬ÒıÓÃÀàĞÍÉùÃ÷Ê±²»ÄÜÖ¸¶¨Êı×éµÄ´óĞ¡Êı×éµÄ´óĞ¡ÊÇÔÚ¶¯Ì¬·ÖÅäÊı×é¶ÔÏóÊ±Ö¸¶¨µÄÊı×é¶ÔÏóµÄ·ÃÎÊÍ¨¹ı¡°[]¡±²Ù×÷·û£º     arrayName[0]ÊÇµÚÒ»¸öÔªËØ
 
 Àı×Ó1 ÉùÃ÷ºÍ´´½¨Êı×é
 Àı×Ó2 ÓÃÑ­»·´´½¨²¢³õÊ¼»¯Êı×é
@@ -31,15 +35,13 @@ abstract 	do 	      implements 	private 		throw boolean 	double 	      import 	
 
 
 4¡¢¶àÎ¬Êı×é¼ò½é
-Java²»Ö±½ÓÖ§³Ö¶àÎ¬Êı×é£¬¶øÊÇÍ¨¹ıÔÊĞíÊı×éµÄÔªËØÊÇÊı×éÀ´Ö§³Ö¶àÎ¬Êı×é	int b[][] = {{1,2},{3,4}};	int [][] b = {{1,2},{3,4}};	int b[][];	b = new int[2][4];	
+Java²»Ö±½ÓÖ§³Ö¶àÎ¬Êı×é£¬¶øÊÇÍ¨¹ıÔÊĞí ¡°Êı×éµÄÔªËØÊÇÊı×é(Êı×éÇ¶Ì×)¡±À´Ö§³Ö¶àÎ¬Êı×é	int b[][] = {{1,2},{3,4}};	int [][] b = {{1,2},{3,4}};	int b[][];	b = new int[2][4];	
 	int b[][];	b = new int[2][]; // ·ÖÅäĞĞ	b[0] = new int[3]; // ·ÖÅäµÚÒ»ÁĞ	b[1] = new int[5]; // ·ÖÅäµÚ¶şÁĞ
-
-   
 
    
 	
 5¡¢Êı×é¹¤¾ßÀà java.util.Arrays
-boolean equals(type a[], type a2[])	Á½¸öÊı×é´óĞ¡ÏàÍ¬£¬²¢ÇÒÃ¿Ò»¸öÔªËØÏàµÈ	Á½¸önullÊı×éÊÇÏàµÈµÄ	µ±ÔªËØÊÇfloat¡¢doubleÀàĞÍÊ±£º new Double(d1).equals(new Double(d2)) Óë== ²»Í¬, ÕâÀï NaN µÈÓÚNaN, ²¢ÇÒ0.0d ²»µÈÓÚ-0.0dµ±ÔªËØÊÇ¶ÔÏóÊ±£º	(e1==null ? e2==null : e1.equals(e2))void sort(type a[])void sort(type a[], int fromIndx, int toIndex)void sort(type a[], Comparator c)void sort(type a[], int fromIndx, int toIndex, Comparator c)°üÀ¨a[fromIndx]£¬µ«²»°üÀ¨a[toIndex]	fromIndx== toIndexÊ±£¬·¶Î§ÊÇÒ»¸ö¿ÕµÄ·¶Î§ÅÅĞòËã·¨¶¼¾ßÓĞn*log(n)µÄ¼ÆËã¸´ÔÓĞÔ£¬Ğ§ÂÊ¸ßÅÅĞòËã·¨¶¼±£Ö¤ÎÈ¶¨£¬¼´ÅÅĞòËã·¨²»»á¸Ä±äÏàµÈÔªËØµÄË³Ğò¶Ô²»Í¬ÀàĞÍµÄÊı×é£¬Ëã·¨µÄÊµÏÖ²¢²»ÍêÈ«ÏàÍ¬¿ÉÒÔÓÃ×Ô¼ºµÄComparator¶ÔÏóÉùÃ÷×Ô¶¨ÒåµÄË³Ğò   
+boolean equals(type a[], type a2[])	Á½¸öÊı×é´óĞ¡ÏàÍ¬£¬²¢ÇÒÃ¿Ò»¸öÔªËØÏàµÈ	Á½¸önullÊı×éÊÇÏàµÈµÄ	µ±ÔªËØÊÇfloat¡¢doubleÀàĞÍÊ±£º new Double(d1).equals(new Double(d2)) Óë== ²»Í¬, ÕâÀï NaN µÈÓÚNaN, ²¢ÇÒ0.0d ²»µÈÓÚ-0.0dµ±ÔªËØÊÇ¶ÔÏóÊ±£º	(e1==null ? e2==null : e1.equals(e2))void sort(type a[])     //È«²¿Êı¾İ¶¼ÅÅĞòvoid sort(type a[], int fromIndx, int toIndex)  //Ö¸¶¨·¶Î§µÄÊı¾İ½øĞĞÅÅĞòvoid sort(type a[], Comparator c)               //jdk6 ·Ï³ı£¬Í¨¹ı²ÎÊıÖ¸¶¨ÉıĞò¡¢½µĞòÅÅÁĞvoid sort(type a[], int fromIndx, int toIndex, Comparator c)°üÀ¨a[fromIndx]£¬µ«²»°üÀ¨a[toIndex]	fromIndx== toIndexÊ±£¬·¶Î§ÊÇÒ»¸ö¿ÕµÄ·¶Î§ÅÅĞòËã·¨¶¼¾ßÓĞn*log(n)µÄ¼ÆËã¸´ÔÓĞÔ£¬Ğ§ÂÊ¸ßÅÅĞòËã·¨¶¼±£Ö¤ÎÈ¶¨£¬¼´ÅÅĞòËã·¨²»»á¸Ä±äÏàµÈÔªËØµÄË³Ğò¶Ô²»Í¬ÀàĞÍµÄÊı×é£¬Ëã·¨µÄÊµÏÖ²¢²»ÍêÈ«ÏàÍ¬¿ÉÒÔÓÃ×Ô¼ºµÄComparator¶ÔÏóÉùÃ÷×Ô¶¨ÒåµÄË³Ğò   
    
 
 Êı×é¸´ÖÆ
@@ -47,7 +49,12 @@ java.lang.Systemvoid arraycopy(Object src, int src_position,Object dst, int dst
    
    
    
-   
+×Ü½á£º
+1¡¢ÁË½âjava¹Ø¼ü×Ö¡¢±£Áô×Ö
+2¡¢Êı×éÊÇÎÒÃÇÑ§Ï°µÄµÚÒ»ÖÖÒıÓÃÀàĞÍ(¶ÔÏó¡¢ÊµÀı)--jvm ·ÖÅäµÄ¶ÑÄÚ´æÖĞµÄµØÖ·
+3¡¢Êı×éµÄ¶¨Òå£ºÃû×ÖµÄ¶¨Òå¡¢³¤¶ÈµÄ¶¨Òå¡£   Êı×é±ØĞëÖªµÀ³¤¶È£¬Èç¹ûÄ³¸öÏÂ±êµØÖ·Ã»ÓĞ¸³Öµ£¬ÏµÍ³×Ô¶¯¸³Öµ¡£
+4¡¢¶ÔÊı×éµÄ²Ù×÷£¬Éæ¼°µ½Ò»Ğ©Ëã·¨--ÅÅĞò
+5¡¢java ¶¨ÒåÁË²Ù×÷Êı×éµÄ¹¤¾ßÀà£¬ËÑË÷¡¢ÅÅĞò   
    
    
    
