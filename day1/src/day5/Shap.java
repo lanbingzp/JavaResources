@@ -6,7 +6,18 @@ package day5;
  *
  */
 public class Shap {
+	private String name;
 
+	public Shap(){}
+	
+	public Shap(String name){
+		this.name = name;
+	}
+	
+	public void sayHello(){
+		System.out.println("Shap 类");
+	}
+	
 	/**
 	 * 父类中的这两个方法，目前不完善
 	 * @return
