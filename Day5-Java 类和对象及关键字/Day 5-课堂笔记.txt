@@ -1,17 +1,73 @@
 Ä¿±ê
-    ÁË½â Java ÖÐµÄ¼Ì³ÐµÄ¸ÅÄî
+    ÁË½â Java ÖÐµÄ¼Ì³ÐµÄ¸ÅÄî 
     ÁË½â¼Ì³ÐµÄºÃ´¦ÒÔ¼°ÈçºÎÊµÏÖ
     ÁË½â Java ¶àÌ¬¸ÅÄîÒÔ¼°ÊµÏÖ·½Ê½
     ÁË½â Java ÖÐ½Ó¿ÚµÄ¶¨ÒåÒÔ¼°ÊµÏÖ·½Ê½ 	
-	
+    ÕÆÎÕ Java ÀàÖÐ³öÏÖµÄ¹Ø¼ü×Ö 	
+
 1¡¢¸´Ï°
-   ¶ÔÏóÓÉ×´Ì¬ºÍÐÐÎª×é³É 
-   ÀàÊÇ¾ßÓÐÏàÍ¬ÊôÐÔºÍÐÐÎªµÄÒ»×é¶ÔÏóµÄ¼¯ºÏ 
-   ·â×°ÊÇÒþ²Ø¶ÔÏóÊµÏÖÏ¸½ÚµÄ¹ý³Ì£¬ÒÔ±ã²»ÈÃÓÃ»§¿´µ½
-   ÀàµÄ±äÁ¿ºÍ·½·¨¿É±»¸ÃÀàµÄÊµÀý·ÃÎÊ
-   Ô²µã·ûºÅÓÃÓÚ·ÃÎÊ¶ÔÏóµÄ³ÉÔ±
+   ¶ÔÏóÓÉ×´Ì¬ºÍÐÐÎª×é³É Êµ¼Ê´æÔÚµÄÎïÌå
+   ÀàÊÇ¾ßÓÐÏàÍ¬ÊôÐÔºÍÐÐÎªµÄÒ»×é¶ÔÏóµÄ¼¯ºÏ
+   ³éÏó£ºÊÇ³éÈ¡Ö÷ÒªÌØÕ÷¡¢ºöÂÔ´ÎÒªÌØÕ÷ 
+   ·â×°£ºÊÇÒþ²Ø¶ÔÏóÊµÏÖÏ¸½ÚµÄ¹ý³Ì£¬ÒÔ±ã²»ÈÃÓÃ»§¿´µ½
+   ÀàÄÚ²¿Ö»ÓÐ ±äÁ¿ºÍ·½·¨  ¿É±»¸ÃÀàµÄÊµÀý(¶ÔÏó)·ÃÎÊ
+   Ô²µã·ûºÅÓÃÓÚ·ÃÎÊ¶ÔÏóµÄ³ÉÔ±  
+       ¶ÔÏóÃû.·½·¨Ãû(²ÎÊý);                          Java 
+       [¶ÔÏóÃû×Ö  ·½·¨Ãû×Ö:²ÎÊý]; <==> ¶ÔÏóÃû.·½·¨Ãû:²ÎÊý  OC
+       ¶ÔÏóÃû->·½·¨Ãû                                 PHP
+   ÊôÐÔµÄ¶¨Òå£º private ÀàÐÍ ÊôÐÔÃû[=0]; ÀàµÄÊôÐÔ£¬×Ô¶¯¸³Öµ 
+   ·½·¨µÄ¶¨Òå£º public  Êä³ö½á¹ûÀàÐÍ  ·½·¨Ãû(ÊäÈë²ÎÊýÿ){}
    ¹¹Ôìº¯ÊýÔÚ´´½¨¶ÔÏóÊ±³õÊ¼»¯¶ÔÏó
+      (1)×÷ÓÃÌØÊâ£ºÓë new Ò»ÆðÊ¹ÓÃ£¬¸øÀàµÄÊôÐÔ³õÊ¼»¯¸³Öµ
+      (2)Ãû×ÖÌØÊâ£ºÓëÀàÃûÒ»ÖÂ£¬Ê××ÖÄ¸´óÐ´
+      (3)Ã»ÓÐ·µ»ØÖµÀàÐÍ£¬Êµ¼ÊÊÇÔÚ new ·ÖÅäµÄÄÚ´æÖÐ£¬¸øÊôÐÔ±äÁ¿¸³Öµ 
    
+[ÀàµÄÐÞÊÎ×Ö] class ÀàÃû³Æ [extends ¸¸ÀàÃû³Æ][implements ½Ó¿ÚÃû³ÆÁÐ±í] {         ±äÁ¿¶¨Òå¼°³õÊ¼»¯£»       ·½·¨¶¨Òå¼°·½·¨Ìå£»}
+ÀàµÄÐÞÊÎ×Ö£º  [public] [abstract | final]            È±Ê¡·½Ê½Îª friendly
+
+¶ÔÏó(ÉúÃüÖÜÆÚ)£º
+(1)¶ÔÏóÈçºÎ´´½¨
+   ·½·¨Ò»£ºÓÃ¹¹Ôìº¯Êý´´½¨£¬µ÷ÓÃÀàÖÐ±àÐ´µÄ¹¹Ôìº¯Êý£¬----ÊÖ¶¯´´½¨
+      new ×Ô¶¯·ÖÅä¿Õ¼ä£¬×Ô¶¯¸ù¾ÝÀàÐÍÄ¬ÈÏ³õÊ¼»¯ £»
+      µ÷ÓÃ¹¹Ôìº¯Êý£¬×¨ÃÅ¸øÊôÐÔ¸³Öµ;
+      ¶ÔÏó´´½¨³É¹¦;
+
+   ·½·¨¶þ£º¾²Ì¬·½·¨×Ô¶¯´´½¨------×Ô¶¯´´½¨
+      Ò»¸öÀàÖÐ£¬¿ÉÒÔÓÐ static ÐÞÊÎµÄÊôÐÔºÍ·½·¨;
+      µ±Àà¼ÓÔØÍê³Éºó£¬×Ô¶¯ÔÚ¾²Ì¬Çø£¬·ÖÅäÄÚ´æ£¬´æ·Å static ÊôÐÔºÍ·½·¨;
+      ¿ÉÒÔÖ±½ÓÍ¨¹ý   ÀàÃû.·½·¨Ãû()  ·ÃÎÊ¾²Ì¬·½·¨;
+      ¾²Ì¬·½·¨Ö»ÄÜµ÷ÓÃ¾²Ì¬µÄÊôÐÔ£»
+      Èç¹û°Ñ²»±ØÒªµÄ·½·¨£¬ÉèÖÃÎª static £¬ÔÚÄã²»ÓÃµÄÊ±ºòÒ²Òª·ÖÅäÄÚ´æ£¬
+½¨Òé´ó²¿·Ö·½·¨£¬ÓÃ new ·½Ê½·ÖÅäÄÚ´æ¡£ 
+
+
+(2)¶ÔÏóÈçºÎÊ¹ÓÃ
+   ¶ÔÏóµ÷ÓÃ·½·¨
+       People p = new People();
+       p.method1();  //Í¨¹ý¶ÔÏóµ÷ÓÃ
+
+       People.method2(); //Í¨¹ýÀàÃûµ÷ÓÃ
+       Math.random();
+
+   ¶ÔÏóµ÷ÓÃÊôÐÔ
+       p.name;  //´íÎó£¬ÔÚÀàµÄÍâ²¿£¬²»ÄÜ·ÃÎÊ private ÊôÐÔ
+       
+       Èç¹ûÐèÒª¶ÔÊôÐÔÖµ½øÐÐ¶ÁÐ´¡£Ìá¹© getter/setter ·½·¨
+       getter ·½·¨ÈÃÓÃ»§ÄÜ¹»¶ÁÈ¡ÊôÐÔÖµ;
+       setter ·½·¨ÈÃÓÃ»§ÄÜ¹»Ð´ÈëÊôÐÔÖµ;
+       getter / setter ÃüÃû¹æ·¶£»
+
+(3)¶ÔÏóÈçºÎÏú»Ù
+   ÓÉ JVM ×Ô¶¯ÅÐ¶Ï£¬¸ú±£½à°¢ÒÌ¹¤×÷Ê±¼äÒ»Ñù£¬Ò»ÌìÖÐ¹Ì¶¨µÄ¼¸¸öÊ±¼ä¶Î¼ì²é£»
+Èç¹û·¢ÏÖÄÚ´æÖÐÓÐ¶ÔÏó£¬ºÜ¾ÃÃ»ÓÐ±»Ê¹ÓÃ£¬¾Í¿ÉÄÜ°ÑÕâ¸ö¶ÔÏóµ±×÷À¬»ø£¬ÇåÀíµô¡£
+
+µçÄÔ               ÈË
+(1)µçÄÔÈçºÎÉú²ú     (1)ÈçºÎ³öÉú
+(2)µçÄÔÈçºÎÊ¹ÓÃ     (2)ÈçºÎ³É³¤
+(3)µçÄÔÈçºÎÏú»Ù     (3)ÈçºÎÏú»Ù 
+
+
+
 2¡¢ÁË½â Java ÖÐµÄ¼Ì³ÐµÄ¸ÅÄî
     ¶¯ÎïÖÖÀàÍ¼ºÃ´¦£º
 	(1)ÈÃÈËÄÜ¹»ÇåÎúµÄÁË½â¶¯ÎïµÄ·ÖÀàÇé¿ö
@@ -86,7 +142,7 @@
 	
 	
 	
-
+6¡¢ÕÆÎÕ Java ÀàÖÐ³öÏÖµÄ¹Ø¼ü×Ö
 
 
 
