@@ -1,5 +1,6 @@
 package day5;
 
+//子类必须实现 接口中定义的所有的方法
 public class FlyCar extends Car implements Fly {
 
 	@Override
