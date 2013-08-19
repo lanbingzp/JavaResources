@@ -1,0 +1,138 @@
+Ä¿±ê
+    ±¾ÖÜÑ§Ï°Ä¿±ê
+    ¸´Ï°ÉÏÖÜÄÚÈÝ
+    ÕÆÎÕ Java µÄ·â×°
+    ÕÆÎÕ Java API µÄ¸ùÀà Object
+    ÁË½â Java API ÖÐ java.lang.* ¹¤¾ß°ü
+    ÕÆÎÕ¼òµ¥µÄ ×Ö·û´®´¦Àí·½·¨  
+    
+±¾ÖÜÑ§Ï°Ä¿±ê
+µÚ¶þÖÜ	13.8.19	L7	JavaÓïÑÔ¶àÌ¬¡¢½Ó¿Ú	13.8.20	L8	JavaÓïÑÔÒì³£´¦Àí	13.8.21	L9	JavaÓïÑÔ×Ö·û´®¡¢Ê±¼ä´¦Àí	13.8.22	L10	Java¼¯ºÏÈÝÆ÷Àà	13.8.23	L11	Java IOÁ÷ÎÄ¼þ¶ÁÈ¡	13.8.24	L12	Java GUI ±à³Ì»ù´¡ Swing³£ÓÃ×é¼þ
+
+
+
+
+1¡¢¸´Ï°ÉÏÖÜÄÚÈÝ
+ÕÆÎÕ Java ÀàÖÐ³öÏÖµÄ¹Ø¼ü×Ö
+static
+this
+super
+extends
+interface
+implements
+abstract
+import
+package
+
+
+2¡¢ÕÆÎÕ Java µÄ·â×°
+·â×°£ºÓÐÑ¡ÔñÐÔµÄÒþ²Ø²¿·ÖÐÅÏ¢¡£
+(1)°ÑÎÄ¼þ·â×°µ½ÎÄ¼þ¼ÐÖÐ--°ü
+(2)ÓÃÎÄ¼þ·â×°Êý¾Ý-------Àà
+(3)ÓÃ{} ·â×°´úÂë-------·½·¨(±äÁ¿×÷ÓÃÓò)
+
+REST µÄ¸ÅÄî£ºÓÃÓÐÒâÒåµÄÃû³Æ¶¨ÒåÄ¿Â¼¡¢ÎÄ¼þÃû¡£¼ûÃûÖªÒâ
+
+°ü   package
+ ÔÚÍ¬Ò»¸ö¹¤³ÌÖÐÐÂ½¨²»Í¬µÄ°ü£¬²»Í¬µÄ°üÖÐ£¬ÎÄ¼þ²»ÄÜÖ±½Óµ÷ÓÃ£» 
+ Ã¿¸öÀà¶¼ÓµÓÐ×Ô¼ºµÄÃû×Ö¿Õ¼ä(nameSpace)£¬Ëü´ú±íÀà¼°Æä·½·¨ºÍ±äÁ¿¿ÉÒÔÔÚÒ»¶¨µÄ·¶Î§ÄÚÖªµÀ±Ë´ËµÄ´æÔÚ£¬¿ÉÒÔÏà»¥Ê¹ÓÃ¡£
+    (1)Í¬Ò»¸ö°üÖÐ£¬ËùÓÐÀà¶¼ÖªµÀÆäËûÀàµÄ´æÔÚ
+    (2)Í¬Ò»¸ö°üÖÐ£¬²»Í¬ÀàÖ®¼äÏà»¥µ÷ÓÃ£¬²»ÐèÒªÈÎºÎÉùÃ÷
+    (3)²»Í¬°üÖÐ£¬Ïà»¥µ÷ÓÃ£¬±ØÐëÔÚÀàµÄÍ·²¿ÉùÃ÷ import Óï¾ä
+
+ ²»Í¬°üÖÐµÄÀàÏà»¥µ÷ÓÃ£¬Ê×ÏÈÒªÉùÃ÷µ÷ÓÃ  import package.className; 
+
+¶ÔÀà¶øÑÔ£ºabstract: ³éÏóÀà²»ÄÜÖ±½Ó²úÉúÊôÓÚÕâ¸öÀàµÄ¶ÔÏó£»final: ×îÖÕÀà²»ÄÜÔÙ±»ÆäËûÀàËù¼Ì³Ð(°²È«µÄ¿¼ÂÇ)£»public: ¹«¹²Àà²»µ«¿ÉÒÔ±»Í¬Ò»³ÌÐò°ü(package)ÖÐµÄÆäËüÀàÊ¹ÓÃ£¬Ò²¿ÉÒÔ±»±ðµÄ³ÌÐò°üÖÐµÄÀàÊ¹ÓÃ£»°ü·ÃÎÊÀàÖ»ÄÜ±»±¾°üÖÐµÄÆäËüÀàËùÊ¹ÓÃ£¬²»ÄÜ±»±ðµÄ³ÌÐò°üÖÐµÄÀàÊ¹ÓÃ¡£
+
+
+ÐÞÊÎ·û:
+µ±ÆäÀà¿ÉÒÔ±»·ÃÎÊÊ±£¬¶ÔÀàµÄ³ÉÔ±±äÁ¿ºÍ³ÉÔ±·½·¨¶øÑÔ£¬ÆäÓ¦ÓÃ·¶Î§¿ÉÒÔÍ¨¹ýÊ©ÒÔÒ»¶¨µÄ·ÃÎÊÈ¨ÏÞÀ´ÏÞ¶¨¡£	 			ÀàÄÚ	°üÄÚ	×ÓÀà(²»Í¬°ü)	ÈÎÒâ	¹«¹²µÄ£¨public£©	          ¡ï	 ¡ï	 ¡ï	         ¡ï	±£»¤µÄ£¨protected£©        ¡ï	 ¡ï	 ¡ï	°ü·ÃÎÊ£¨È±Ê¡£©	          ¡ï	 ¡ï      	Ë½ÓÐµÄ£¨private£©	          ¡ï
+
+²»Í¬°üÏÂÃæ£¬¸¸×ÓÀàÖ®¼ä£¬¿ÉÒÔÍ¨¹ý protected ÏÞ¶¨Ö»ÄÜÍ¨¹ý×ÓÀà·ÃÎÊ¸Ã·½·¨¡£
+µ±×ÓÀàÖÐµÄ±äÁ¿ÃûÓë¸¸ÀàµÄÏàÍ¬£¬¸¸ÀàµÄ±äÁ¿±»ÆÁ±Î¡£
+µ±×ÓÀàÖÐµÄ·½·¨ÃûÓë¸¸ÀàµÄÏàÍ¬£¬¸¸ÀàµÄ·½·¨±»ÆÁ±Î(¸²¸Ç)¡£final¡ª¡ªµ½´ËÎªÖ¹,ÐÞÊÎ·û
+finalÔÚÀàÖ®Ç°	±íÊ¾¸ÃÀàÊÇ×îÖÕÀà£¬²»ÄÜÔÙ±»¼Ì³Ð£¬Ã»ÓÐ×ÓÀà¡£
+        ÕôÆû¶¯Á¦µÄ»ð³µ£¬ÔÚµçÁ¦µÄ»ð³µ³öÏÖºó£¬¾Í²»»áÔÙÑÐ¾¿ÐÂµÄ×ÓÀàÁË¡£finalÔÚ·½·¨Ö®Ç°	±íÊ¾¸Ã·½·¨ÊÇ×îÖÕ·½·¨£¬¸Ã·½·¨²»ÄÜ±»ÈÎºÎÅÉÉúµÄ×ÓÀà¸²¸Ç--²»ÄÜ±»ÖØÐ´¡£
+        ¾­µäµÄËã·¨finalÔÚ±äÁ¿Ö®Ç°	±íÊ¾±äÁ¿µÄÖµÔÚ³õÊ¼»¯Ö®ºó¾Í²»ÄÜÔÚ¸Ä±ä£»Ïàµ±ÓÚ¶¨ÒåÁËÒ»¸ö³£Á¿¡£
+        final ¶¨ÒåµÄÁ¿±ØÐëÒª¸³Öµ £¬³£Á¿Ãû±ØÐë´óÐ´
+3¡¢ÕÆÎÕ Java API µÄ¸ùÀà Object
+java.lang.Object
+     Õâ¸öÀàÊÇËùÓÐ java ³ÌÐòµÄ×æ×Ú¡£ÊÇµÚÒ»¸ö¶¨ÒåµÄ java Àà¡£
+
+Java ¼Ì³Ð²ÉÓÃ¡°µ¥¸ù¼Ì³Ð¡±µÄ»úÖÆ£¬Éú³ÉÒ»¸ö½ð×ÖËþ½á¹¹µÄÀàÍ¼¡£×î¶¥¶ËµÄÀàÊÇËùÓÐÀàµÄ±ê×¼¡£
+
+             µØÇòÉúÃüµÄÆðÔ´£¬´óº£
+                   ÓÐ»úÎï
+                 /       \
+            µ¥Ï¸°ûÉúÎï  ¶àÏ¸°ûÉúÎï  
+             / |  \      / | \
+            ÿÿÿÿ         ÿÿÿ..
+                          / |  \
+                    ÎÞ¼¹×µ¶¯Îï   ÓÐ¼¹×µ¶¯Îï
+                                // |  \
+                           
+                Object
+                /     \
+
+
+
+
+java.lang.Object
+  java.text.Format
+      java.text.DateFormat
+
+Object ÀàÖÐµÄ³£ÓÃ·½·¨£º
+boolean equals(Object obj) ±È½Ïµ±Ç°¶ÔÏóÓë²ÎÊý¶ÔÏóÖÐ£¬ÄÚÈÝÊÇ·ñÏàÍ¬
+void    finalize()         ¸æËß JVM £¬»ØÊÕµ±Ç°¶ÔÏóµÄÄÚ´æÊ±ÈçºÎ²Ù×÷
+int	hashCode()         °Ñ¶ÔÏóÔÚÄÚ´æÖÐµÄµØÖ·£¬°´ÕÕ Hash Ëã·¨¼ÆËã³öÀ´£¬ÈÃ³ÌÐòÔ±ÁË½â
+String	toString()         ÓÃÖÆ¶¨×Ö·û´®£¬ÃÀ»¯ java ¶ÔÏóµÄÊä³ö
+
+==        ±È½ÏÁ½¸ö¶ÔÏóµÄÄÚ´æµØÖ·ÊÇ·ñÒ»ÖÂ
+equals()  ±È½Ï²»Í¬ÄÚ´æÖÐµÄÖµ(ÊôÐÔÖµ)ÊÇ·ñÏàµÈ
+
+4¡¢ÁË½â Java API ÖÐ java.lang.* ¹¤¾ß°ü
+lang ÊÇ java µÄµÚÒ»¸ö°ü£¬»ù´¡ÓïÑÔ°ü£¬ÀïÃæ°üº¬±àÐ´Ò»¸ö java ³ÌÐò×î»ù±¾µÄ¹¤¾ßÀà¡£
+
+Object
+String
+Integer
+System
+Math
+
+·ÖÀà£º
+½Ó¿Ú£º
+     Comparable<T>	´Ë½Ó¿ÚÇ¿ÐÐ¶ÔÊµÏÖËüµÄÃ¿¸öÀàµÄ¶ÔÏó½øÐÐÕûÌåÅÅÐò¡£
+     Iterable<T>        ÊµÏÖÕâ¸ö½Ó¿ÚÔÊÐí¶ÔÏó³ÉÎª "foreach" Óï¾äµÄÄ¿±ê
+
+ÀàÕªÒª£º
+    °ü×°Àà£º8¸ö --> 8¸ö»ù±¾Êý¾ÝÀàÐÍ byte short int long char float double boolean
+    ·´ÉäÀà£º Class    ²»½² 
+    Ã¶¾Ù: Enum
+    ÊýÑ§ÔËËã: Math
+    ×Ö·û´®Àà: String
+    Ïß³Ì´¦Àí: Thread
+
+
+Òì³££º Exception 
+
+
+5¡¢ÕÆÎÕ¼òµ¥µÄ ×Ö·û´®´¦Àí·½·¨ 
+String	³£Á¿×Ö·û´®ÀàStringBuffer	±äÁ¿×Ö·û´®Àà£¬·½±ã¶Ô×Ö·û´®µÄÐÞ¸ÄCharacter	×Ö·ûÀà£¬Ö§³Ö×Ö·ûµÄÏà¹Ø²Ù×÷StringTokenizer	´ÓÒ»¸ö×Ö·û´®ÎöÈ¡×Ó×Ö·û´®String Àà  String Àà´ú±í×Ö·û´®¡£Java ³ÌÐòÖÐµÄËùÓÐ×Ö·û´®×ÖÃæÖµ£¨Èç "abc" £©¶¼×÷Îª´ËÀàµÄÊµÀýÊµÏÖ¡£    ×ÖÃæÁ¿£ºÊµ¼ÊÖµÓëÕæÊµÖµÒ»ÖÂµÄÁ¿java.lang.Object
+  java.lang.String
+
+Ê®½øÖÆ   10   ->10
+Ê®Áù½øÖÆ  10  ->16
+¶þ½øÖÆ   10   ->2
+
+×Ö·û´®µÄ´´½¨
+  String s = new String();
+  s = "aa";
+
+  String s = new String("aa");ÇóÒ»¸ö×Ö·û´®ÖÐ£¬Ð¡Ð´×ÖÄ¸¡¢´óÐ´×ÖÄ¸¡¢Êý×Ö¡¢·Ç×ÖÄ¸µÄ¸öÊý
+"adi87HJSD21h@3728HFD9*($#(*@"
+Ë¼Â·£º°Ñ×Ö·û´®²ð¿ª£¬Ò»¸ö×ÖÄ¸Ò»¸ö×ÖÄ¸µÄÅÐ¶Ï
+ char[] ·½·¨()
+ char[]	toCharArray() 
+          ½«´Ë×Ö·û´®×ª»»ÎªÒ»¸öÐÂµÄ×Ö·ûÊý×é¡£´´½¨×Ö·û´®length¡¢charAt¡¢getChars×Ö·û´®±È½Ï¡¢startsWith/endsWith¶¨Î»×Ö·ûºÍ×Ö·û´®»ñÈ¡×Ó´®Á¬½Ó×Ö·û´®ÆäËü×Ö·û´®²Ù×÷
+
+

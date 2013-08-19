@@ -27,13 +27,18 @@ public class Study extends People{
 	
 	
 	//重写父类中的方法
+	/*
 	public void 休息(){
 		System.out.println("玩游戏..");
 	}
+	*/
 	
 	//写一个父类中没有的方法
 	public void 运动(){
 		System.out.println("喜欢打羽毛球....");
+		//子类中调用父类的方法
+		//父类对象 super
+		super.休息();
 	}
 	
 }
