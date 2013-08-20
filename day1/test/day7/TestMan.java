@@ -1,5 +1,8 @@
 package day7;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 public class TestMan {
@@ -72,4 +75,26 @@ public class TestMan {
 		
 		
 	}
+
+	@Test
+    public void test1(){
+    		List<String> list = new ArrayList<String>();
+    		list.add("abc");
+    		list.add("bdw");
+    		list.add("ages");
+    		list.add("dfsae");
+    		
+    		for (int i = 0; i < list.size(); i++) {
+				
+		}
+    		
+    		for (String string : list) {
+				if (string.contains("a")) {
+					list.remove(string);
+				}
+		}
+    		
+    }
+
+
 }
